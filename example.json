@@ -1,0 +1,154 @@
+[
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439011"
+    },
+    "student": {
+      "$oid": "507f191e810c19729de860ea"
+    },
+    "school": {
+      "$oid": "507f191e810c19729de860eb"
+    },
+    "exam": {
+      "$oid": "507f191e810c19729de860ec"
+    },
+    "questoes": [
+      {
+        "questaoId": {
+          "$oid": "507f191e810c19729de860ed"
+        },
+        "questaoFormato": "MULTIPLA_ESCOLHA",
+        "questaoTipo": "MULTIPLA_ESCOLHA",
+        "multiplaEscolhaGabarito": "A",
+        "categoriasEscolhidas": null,
+        "detalhamentoDaCategoria": null,
+        "fotosEscrita": null
+      },
+      {
+        "questaoId": {
+          "$oid": "507f191e810c19729de860ee"
+        },
+        "questaoFormato": "ESCRITA",
+        "questaoTipo": "PALAVRA",
+        "multiplaEscolhaGabarito": null,
+        "categoriasEscolhidas": [
+          "categoria_1",
+          "categoria_2",
+          "categoria_3"
+        ],
+        "detalhamentoDaCategoria": "Resposta detalhada do aluno",
+        "fotosEscrita": null
+      }
+    ],
+    "auditoria": {
+      "student": {
+        "id": {
+          "$oid": "507f191e810c19729de860ea"
+        },
+        "nome": "João Silva"
+      },
+      "school": {
+        "id": {
+          "$oid": "507f191e810c19729de860eb"
+        },
+        "nome": "Escola Central"
+      },
+      "exam": {
+        "id": {
+          "$oid": "507f191e810c19729de860ec"
+        },
+        "nome": "Prova de Matemática - 1º Bimestre"
+      },
+      "turma": {
+        "id": {
+          "$oid": "507f191e810c19729de860ef"
+        },
+        "ano": "5",
+        "turno": "M"
+      }
+    },
+    "createdAt": {
+      "$date": "2025-01-15T10:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-15T10:35:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439012"
+    },
+    "student": {
+      "$oid": "507f191e810c19729de860f0"
+    },
+    "school": {
+      "$oid": "507f191e810c19729de860eb"
+    },
+    "exam": {
+      "$oid": "507f191e810c19729de860ec"
+    },
+    "questoes": [
+      {
+        "questaoId": {
+          "$oid": "507f191e810c19729de860ed"
+        },
+        "questaoFormato": "MULTIPLA_ESCOLHA",
+        "questaoTipo": "MULTIPLA_ESCOLHA",
+        "multiplaEscolhaGabarito": "B",
+        "categoriasEscolhidas": null,
+        "detalhamentoDaCategoria": null,
+        "fotosEscrita": null
+      },
+      {
+        "questaoId": {
+          "$oid": "507f191e810c19729de860ee"
+        },
+        "questaoFormato": "ESCRITA",
+        "questaoTipo": "PALAVRA",
+        "multiplaEscolhaGabarito": null,
+        "categoriasEscolhidas": [
+          "categoria_1",
+          "categoria_4",
+          "categoria_5"
+        ],
+        "detalhamentoDaCategoria": "Outra resposta detalhada",
+        "fotosEscrita": null
+      }
+    ],
+    "auditoria": {
+      "student": {
+        "id": {
+          "$oid": "507f191e810c19729de860f0"
+        },
+        "nome": "Maria Santos"
+      },
+      "school": {
+        "id": {
+          "$oid": "507f191e810c19729de860eb"
+        },
+        "nome": "Escola Central"
+      },
+      "exam": {
+        "id": {
+          "$oid": "507f191e810c19729de860ec"
+        },
+        "nome": "Prova de Matemática - 1º Bimestre"
+      },
+      "turma": {
+        "id": {
+          "$oid": "507f191e810c19729de860ef"
+        },
+        "ano": "5",
+        "turno": "T"
+      }
+    },
+    "createdAt": {
+      "$date": "2025-01-15T11:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-15T11:05:00.000Z"
+    },
+    "__v": 0
+  }
+]

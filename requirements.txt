@@ -1,0 +1,13 @@
+# Core dependencies
+pandas>=2.0.0
+openpyxl>=3.0.0
+
+# Optional: for enhanced performance
+numpy>=1.24.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# mypy>=1.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# pandas-stubs>=2.0.0  # Type stubs for pandas
